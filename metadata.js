@@ -57,21 +57,9 @@
 					'npm/min': 'node_modules/monaco-html/release/min',
 					esm: 'node_modules/monaco-html/release/esm',
 				}
-			},
-			{
-				name: 'monaco-languages',
-				contrib: 'vs/basic-languages/monaco.contribution',
-				modulePrefix: 'vs/basic-languages',
-				thirdPartyNotices: 'node_modules/monaco-languages/ThirdPartyNotices.txt',
-				paths: {
-					src: '/monaco-languages/release/dev',
-					'npm/dev': 'node_modules/monaco-languages/release/dev',
-					'npm/min': 'node_modules/monaco-languages/release/min',
-					esm: 'node_modules/monaco-languages/release/esm',
-				}
 			}
 		]
-	}
+	};
 
 	if (typeof exports !== 'undefined') {
 		exports.METADATA = METADATA
